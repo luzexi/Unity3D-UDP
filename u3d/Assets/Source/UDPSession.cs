@@ -112,7 +112,7 @@ namespace Game.Network
 
         private System.Action<EVENT, byte[], string> mCallback;
 
-        public TCPSession(System.Action<EVENT, byte[], string> _callback)
+        public UDPSession(System.Action<EVENT, byte[], string> _callback)
         {
             mReceiveArray = new byte[RECEIVE_MAX_NUM];
 
